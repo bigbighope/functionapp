@@ -1,0 +1,14 @@
+{
+  "name": "autobarconfig",
+  "version": "1.0.0",
+  "description": "Automate BAR configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wende Kong",
+  "license": "ISC",
+  "dependencies": {
+    "ssh-exec": "^2.0.0"
+  }
+}
