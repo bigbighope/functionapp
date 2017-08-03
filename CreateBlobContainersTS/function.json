@@ -5,7 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "createblobcontainers/{numOfNodes:int}/{account}/{accesskey}",
+      "route": "createblobcontainersTS/{numOfNodes:int}/{account}/{accesskey}",
       "methods": [
         "get"
       ]
