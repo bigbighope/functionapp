@@ -10,8 +10,8 @@ export function run(context: any, req: any): void {
     let blobService = azure.createBlobService();
     let containerBaseName = 'barcontainer';
 
-    for(var i=0; i<context.bindingData.numOfNodes; i++){
-        let containerName = containerBaseName+i;
+    for(let i = 0; i < context.bindingData.numOfNodes; i++){
+        let containerName = containerBaseName + i;
         blobService.createContainerIfNotExists(containerName, function(err, result, response) {
             if (err) {
                 context.log("Couldn't create containers. Error Messasge: %s.", err.message);

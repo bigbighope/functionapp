@@ -2,7 +2,7 @@
   "name": "blobcontainerts",
   "version": "1.0.0",
   "description": "This the typescript file to generate js file for blob containers geration automation.",
-  "main": "index.js",
+  //"main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
