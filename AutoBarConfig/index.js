@@ -16,7 +16,6 @@ module.exports = function (context, req) {
     //Execute shell command on remote machine.
     exec('ls -lh /home/azureuser/scripts/', settings).pipe(process.stdout);
 
-
     context.res = {
         body: "BAR configuration is done!"
         
@@ -27,10 +26,4 @@ module.exports = function (context, req) {
 
 
 
-//Automatically answer remote interactive prompts.
-//exec('printf "dbc\n${DSUDBCPassword}\n" | dsc config_systems -f /home/azureuser/scripts/Config_System.xml', settings).pipe(process.stdout);
 
-//Other exmaples:
-//exec('printf ".QUIT\n" | bteq .logon 10.0.0.4/dbc,abcd1234', settings).pipe(process.stdout);
-//exec('su -;printf "y\n" | tpareset -x shuttingdown;pdestate', settings).pipe(process.stdout);
-//exec('sh /home/azureuser/scripts/Setup_Verify_BAR_Configuration.sh', settings).pipe(process.stdout);

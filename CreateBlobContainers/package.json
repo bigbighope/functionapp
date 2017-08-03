@@ -1,5 +1,5 @@
 {
-  "name": "package",
+  "name": "CreateBlobContainers",
   "version": "1.0.0",
   "description": "this function create containers for BAR",
   "main": "createblobstoragecontainers.js",
@@ -16,5 +16,9 @@
   "license": "MIT",
   "dependencies": {
     "azure-storage": "^2.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bigbighope/functionapp/tree/master/CreateBlobContainers"
+  },
 }
