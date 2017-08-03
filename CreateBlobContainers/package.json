@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "this function create containers for BAR",
+  "main": "createblobstoragecontainers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BAR",
+    "blob",
+    "storage",
+    "container"
+  ],
+  "author": "Wende Kong",
+  "license": "MIT",
+  "dependencies": {
+    "azure-storage": "^2.2.1"
+  }
+}
